@@ -106,7 +106,7 @@ margin-right: 10px;
     margin-left: -10px;
 }
 body{
-    background-image: url('image.jpg'); /* Relative path to the image */
+    background-image: url('image.jpg'); 
     background-size: cover;
     background:linear-gradient(rgb(11, 163, 245),rgb(63, 2, 2));
     background-repeat: no-repeat;
