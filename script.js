@@ -32,10 +32,6 @@ document.querySelector(".min_tem").innerHTML=data.main.temp_min+"°C";
 document.querySelector(".latitude").innerHTML=data.coord.lat+"° N";
 document.querySelector(".longitude").innerHTML=data.coord.lon+"° E";
 
-
-
-
-
 if(data.weather[0].main == "Clouds"){
 weatherIcon.src = "clouds.png";
 }
