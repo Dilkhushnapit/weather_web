@@ -33,19 +33,19 @@ document.querySelector(".latitude").innerHTML=data.coord.lat+"° N";
 document.querySelector(".longitude").innerHTML=data.coord.lon+"° E";
 
 if(data.weather[0].main == "Clouds"){
-weatherIcon.src = "clouds.png";
+weatherIcon.src = "./image/clouds.png";
 }
 else if(data.weather[0].main == "Clear"){
-weatherIcon.src = "clear.png";
+weatherIcon.src = "./image/clear.png";
 }
 else if(data.weather[0].main == "Rain"){
-weatherIcon.src = "rain.png";
+weatherIcon.src = "./image/rain.png";
 }
 else if(data.weather[0].main == "Drizzle"){
-weatherIcon. src = "drizzle.png";
+weatherIcon.src = "./image/drizzle.png";
 }
 else if(data.weather[0].main == "Mist" ){
-weatherIcon.src = "mist.png";
+weatherIcon.src = "./image/mist.png";
 }
 
 document.querySelector(".error").style.display="none";
